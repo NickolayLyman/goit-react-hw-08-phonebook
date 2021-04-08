@@ -31,7 +31,6 @@ const useStyles = createUseStyles({
     right: 20,
     padding: 8,
     width: 300,
-    height: 210,
     fontSize: 16,
     display: 'flex',
     flexDirection: 'column',
@@ -47,6 +46,7 @@ const useStyles = createUseStyles({
     padding: 4,
     borderRadius: 7,
     fontWeight: 500,
+    border: '1px solid #A52A2A',
     '&:hover': {
       color: '#A52A2A',
       backgroundColor: '#fff',
@@ -105,7 +105,7 @@ const RegistrationView = () => {
           />
           <Field
             component={TextField}
-            type="text"
+            type="password"
             name="password"
             label="Password"
             variant="outlined"
