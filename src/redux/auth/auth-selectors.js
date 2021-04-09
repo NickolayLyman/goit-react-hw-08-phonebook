@@ -4,7 +4,6 @@ const getUserEmail = state => state.auth.user.email;
 const getToken = state => state.auth.token;
 const getIsAuthLoading = state => state.auth.isAuthLoading;
 const getErrorMessage = state => state.auth.error;
-const getIsFetchingUser = state => state.auth.isFetchingUser;
 
 const authSelectors = {
   getIsSignIn,
@@ -13,7 +12,6 @@ const authSelectors = {
   getToken,
   getIsAuthLoading,
   getErrorMessage,
-  getIsFetchingUser,
 };
 
 export default authSelectors;

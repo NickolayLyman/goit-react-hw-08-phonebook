@@ -18,6 +18,7 @@ const useStyles = createUseStyles({
 const AppBar = () => {
   const isSignIn = useSelector(authSelectors.getIsSignIn);
   const style = useStyles();
+
   return (
     <header className={style.header}>
       <Navigation />
